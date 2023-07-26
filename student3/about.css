@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap'); 
 
+*{
+	font-family: 'kalam', cursive;
+}
+
 body{
 	
 	background-image: url('imagesf/images\ \(6\).jpg');
@@ -9,7 +13,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #f0f0f0;
-	font-family: 'kalam', cursive;
+
 
 	
 }
