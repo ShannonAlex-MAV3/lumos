@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+:root{
+    --main-color:#04c94f;
+    --first-color:#1f9cfcf2;
+    --second-color:#edecea;
+    --third-color:#21ad42;
+    --text-color:navy;
+    --white:#ffffff;
+    --black-color:#000000;
+    --bg-color:#d9e2e2;
+    --buttton-color:#83b735;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 18px 100px;
+    transition: all 0.2s linear;
+    /* background-color: var(--second-color); */
+    color: white;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-logo{
+    float: left;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img{
+    width: 50px;
+}
+
+.nav-items{
+    display: flex;
+    list-style-type: none;
+}
+.nav-items a{
+    padding: 8px 17px;
+    display: block;
+    /* color: var(--text-color); */
+    color: inherit;
+    font-size: 1.2vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-items a:hover{
+    color: var(--third-color);
+    border-radius: 0.3rem;
+    transition: 0.2s all linear;
+}

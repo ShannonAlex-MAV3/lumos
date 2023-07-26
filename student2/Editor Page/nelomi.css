@@ -1,0 +1,31 @@
+/* Editor Page Details */
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+   font-family: 'kalam', cursive;
+   --main-color:#000000;
+   --second-color:#dee7f6;
+}
+body{
+   
+   background: linear-gradient(to right,#0d1424, #042675);
+}
+h1{
+   text-align: center;
+   color: var(--second-color);
+}
+.container1{
+   background-color: aliceblue;
+   text-align: center;
+   
+}
+
+.container1 h2{
+   text-align: center;
+   
+}
+.container2,.container3,.container4 {
+   text-align: center;
+   padding-top: 5px;
+   color: var(--second-color);
+}

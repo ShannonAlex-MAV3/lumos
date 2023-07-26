@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feed.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="nav-logo">
+                <img src="image/logolumo.png" alt="">
+            </a>
+            <ul class="nav-items">
+                <li><a href="../Main Page/home.html">Home</a></li>
+                <li><a href="../../student1/payment.html">Shop</a></li>
+                <li><a href="../../student4/gallery.html">Gallery</a></li>
+                <li><a href="../../student3/index.html">Quiz</a></li>
+                <li><a href="../../student3/about.html">About</a></li>
+                <li><a href="feed.html">Feedback</a></li>
+                <li><a href="../Content Page/lumonew.html">content</a></li>
+                <li><a href="../Editor Page/nelomi.html">Editor</a></li>
+                <li><a href="../../student4/sitemap.html">SiteMap</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <h2> Feeback form </h2>
+        <form class="form" action="mailto:receiveer39@gmail.com" method="post" onsubmit="return validateForm()" >
+            
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" id="name" placeholder="Enter full name" required>
+                <div class="error-msg" id="error-msg-1"></div>
+            </div>
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Enter email address" required>
+                <div class="error-msg" id="error-msg-2"></div>
+            </div>
+            <div class="input-box">
+                <label>Mobile Number</label>
+                <input type="text" id="phone" placeholder="Enter phone number" required>
+                <div class="error-msg" id="error-msg-3"></div>
+            </div>
+                        
+            <div class="satisfaction-box">
+                <h3>1.How satisfied were your website today? Choose from 0 to 10, where 0 is extremely dissatisfied and 10 is extremely satisfied.</h3>
+                <div class="satisfaction-options">
+                    <div class="satisfaction">
+                        <input type="radio" id="check-zero" name="satisfaction" checked>
+                        <label for="check-zero">0</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-one" name="satisfaction" >
+                        <label for="check-one">1</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-two" name="satisfaction" >
+                        <label for="check-two">2</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-three" name="satisfaction" >
+                        <label for="check-three">3</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-four" name="satisfaction" >
+                        <label for="check-four">4</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-five" name="satisfaction" >
+                        <label for="check-five">5</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-six" name="satisfaction" >
+                        <label for="check-six">6</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-seven" name="satisfaction" >
+                        <label for="check-seven">7</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-eight" name="satisfaction" >
+                        <label for="check-eight">8</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-nine" name="satisfaction" >
+                        <label for="check-nine">9</label>
+                    </div>
+                    <div class="satisfaction">
+                        <input type="radio" id="check-ten" name="satisfaction" >
+                        <label for="check-ten">10</label>
+                    </div>
+                </div>
+                <div class="error-msg" id="error-msg-5"></div>
+            </div>
+            <div class="rating-text">
+                <label for="message">2. Please could you tell us your reasons for giving this rating?</label><br>
+                <textarea name="rating-text" id="message" rows="4" cols="10" required ></textarea>
+            </div>
+            <p> 3.How did you want to complete this task? (Optional)</p>
+            <div class="select-box"> 
+                <label for="feedback-select-1"></label>
+                    <select  id="feedback-select-1" name="feedback-select-1">
+                        <option value="Please Select">--Please Select--</option>
+                        <option value="Phone">Phone</option>
+                        <option value="Website">Website</option>
+                        <option value="WebChat">WebChat</option>
+                        <option value="SocialMedia">Social media</option>
+                        <option value="Email">Email</option>
+                    </select>
+                    <div class="error-msg" id="error-msg-6"></div>
+            </div>
+            <p> 4.How easy to find information on this website? (Optional)</p>
+            <div class="select-box"> 
+                <label for="feedback-select-2"></label>
+                    <select id="feedback-select-2" name="feedback-select-2">
+                        <option value="Please Select">--Please Select--</option>
+                        <option value="VeryEasy">VeryEasy</option>
+                        <option value="Easy">Easy</option>
+                        <option value="Average">Average</option>
+                        <option value="Difficult">Difficult</option>
+                        <option value="VeryDifficult">VeryDifficult</option>
+                    </select>
+                    <div class="error-msg" id="error-msg-7"></div>
+            </div>
+            <div class="feedback-4">
+                <p>5.How valuable was the website to assist you discover the data you needed?(Optional)</p><br>
+                <input type="radio" id="radio0" name="assisting discover data" value="Extremely valuable">
+                <label for="radio0">Extremely valuable</label>
+                <input type="radio" id="radio2" name="assisting discover data" value="Valuable">
+                <label for="radio2">Valuable</label>
+                <input type="radio" id="radio3" name="assisting discover data" value="Moderately valuable">
+                <label for="radio3">Moderately valuable</label>
+                <input type="radio" id="radio4" name="assisting discover data" value="Slightly valuable">
+                <label for="radio4">Slightly valuable</label>
+                <input type="radio" id="radio5" name="assisting discover data" value="Not valuable">
+                <label for="radio5">Not valuable</label>
+                <div class="error-msg" id="error-msg-8"></div>
+            </div>
+            <button class="form-button" type="button" onclick="validateForm()">I have entered my details correctly</button>
+            <button class="Submit-button" type="Submit" onclick="openpopup()">Submit</button>
+            <!--If not put another called open popup and close popup-->
+            <!--                   Popup page                        -->
+            <div class="popup" id="popup">
+                <img src="Images/right-1.png" alt="">
+                <h2> Thank You! </h2>
+                <p> Your details has been successfully submitted. Thank you for your support.</p>
+                <button class="OKbutton" type="button" onclick="closepopup()"> OK </button>
+            </div>
+        </form>
+    </section>
+    
+    <script src="js/navbar.js"></script>
+    <script >
+        let popup = document.getElementById("popup");
+    function openpopup(){
+        popup.classList.add("openpopup")
+    }
+    function closepopup(){
+        popup.classList.remove("openpopup")
+    }
+    </script>
+</body>
+</html>
