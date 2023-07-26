@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+body{
+    background-color:#d9e2e2;
+    padding: 3%;
+    background-image: url(image/5.jpg);
+    margin: 5%;
+    font-family: 'kalam';
+}
+
+
+h1{
+    color: #d2eefa;
+    font-size: 90px;
+    border: #0f1210;
+}
+.box{
+    background-color: #d4fbf5;
+    text-align: center;
+    padding: 2%;
+    border-radius: 10px;
+    font-weight: 300;
+    width: 380px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 0px;
+    
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+ 
+ *{
+    font-family: 'kalam', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body{
+    background-image: url(image/welcome4.jpg);
+    color: #9fcffc;
+    margin-left: 0px;
+    
+}
+
+/* creating table */
+
+table{
+    margin: 5% 25% 5% 0%;
+    align-items: left;
+}
+
+img{
+    width: 480px;
+    height: 600px;
+    margin: 0%;
+    
+}
+.line{
+    border-right: 5px solid #9bf1f7;
+    margin-left: 5px;
+
+}
+
+.box{
+
+    margin: 0px 0px 0px 160px;
+    border-color:antiquewhite;
+    border: 5px solid #9fcffc;
+    border-radius: 3px;
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    animation-name: box;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    position: relative;
+
+}
+
+/* creating animation part */
+
+@keyframes box{
+    0%{left:0px; top:0px;}
+    25%{left:200px; top:0px;}
+    100%{left:0px; top:0px;}
+
+}
+
+p{
+    color: #f5fffc;
+    
+}

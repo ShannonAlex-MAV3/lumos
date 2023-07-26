@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Web Page</title>
+    <link rel="Stylesheet" href="product.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    
+</head>
+<body>
+
+<!-- creating navigation bar -->
+
+    <header>
+        <nav>
+            <a href="#logo" class="nav-logo">
+                <img src="image/logo.png" alt="logo">
+            </a>
+        
+            <ul class="nav-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="product.html">Shop</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="personalPage.html">content</a></li>
+                <li><a href="editor.html">Editor</a></li>
+                <li><a href="#">SiteMap</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+
+        <!-- creating shopping cart logo and name -->
+
+        <section class="head">
+            <h1>Your shopping Cart</h1>
+            <div class="shopping">
+                <img src="Images/shopping-cart-thin.svg" alt="cart">
+                <span class="quantity"> 0 </span>
+            </div>
+        </section>
+        <div class="list"></div>
+    </div>
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard"></ul>
+        <button onclick="formPage()" class="button"> Pay Now </button>
+        <div class="checkout">
+            <div class="total"> 0 </div>
+                <div class="closeShopping">Close</div>
+        </div>
+    </div>
+
+    <script>
+        function formPage(){
+            window.location.href = "payment.html";
+        }
+    </script>
+
+    <!-- conneting javascript files -->
+
+
+    <script src="js/navbar.js"></script>
+    <script src="product.js"> </script>
+</body>
+</html>

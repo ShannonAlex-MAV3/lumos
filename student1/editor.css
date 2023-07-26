@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+    font-family: 'Klee One', cursive;
+    margin: 2%;
+    padding: 0;
+    /* box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth; */
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+.page{
+    background-color: rgb(189, 229, 253);
+    
+    height: 10%;
+    text-align: center;
+    padding: 1px;
+    
+}
+
+hr{
+    width: 100%;
+    margin: 0%;
+}
+.details p{
+    text-align: center;
+    margin: 1%;
+}
+.editor{
+    background-color: rgb(189, 229, 253);
+    text-align: center;
+    padding: 2%;
+}
