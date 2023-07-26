@@ -1,0 +1,22 @@
+[
+    {
+        "title": "\"Valkyrie\" Robot by Nasa",
+        "info": "Valkyrie, a name taken from Norse mythology, is designed to be a robust, rugged, entirely electric humanoid robot capable of operating in degraded or damaged human-engineered environments"
+    },
+    {
+        "title":"Artificial Intelligence (AI) and Machine Learning",
+        "info": "Artificial Intelligence, or AI, has already received a lot of buzz in the past decade, but it continues to be one of the new technology trends because of its notable effects on how we live, work and play are only in the early stages. AI is already known for its superiority in image and speech recognition, navigation apps, smartphone personal assistants, ride-sharing apps and so much more."
+    },
+    {
+        "title": "Virtual Reality and Augmented Reality",
+        "info": "The next exceptional technology trend - Virtual Reality (VR) and Augmented Reality (AR), and Extended Reality (ER). VR immerses the user in an environment while AR enhances their environment."
+    },
+    {
+        "title":"WiFi Signals Used To \"See\" People Inside Rooms",
+        "info":"Jiaqi Geng and colleagues at Carnegie Mellon University in Pittsburgh, has found a way to monitor human movement in indoor environments using WiFi signals. They have even trained a neural network to use these signals to recognise the specific pose of each human in a room. “This paves the way for low-cost, broadly accessible, and privacy-preserving algorithms for human sensing,” they say."
+    },
+    {
+        "title":"Modern Technology",
+        "info":"Some modern pieces of Hardware"
+    }
+]

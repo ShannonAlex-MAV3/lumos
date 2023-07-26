@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/scrollBar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <title>Gallery</title>
+
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+        <nav>
+            <a href="#" class="nav-logo">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="nav-items">
+                <li><a href="../student2/Main Page/home.html">Home</a></li>
+                <li><a href="../student1/payment.html">Shop</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="../student3/index.html">Quiz</a></li>
+                <li><a href="../student3/about.html">About Us</a></li>
+                <li><a href="../student2/Feedback Page/feed.html">Feedback</a></li>
+                <li><a href="content.html">content</a></li>
+                <li><a href="editorsPage.html">Editor</a></li>
+                <li><a href="sitemap.html">SiteMap</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main area -->
+    <div class="main">
+
+        <!-- Tool bar area -->
+        <div class="tool-bar">
+            <div class="sidebar"></div>
+            <div id="small" class="tool f-s">
+                <p>A</p>
+            </div>
+            <div id="medium" class="tool f-s">
+                <p>A</p>
+            </div>
+            <div id="large" class="tool  f-s">
+                <p>A</p>
+            </div>
+            <div class="tool c">
+                <div class="color black"></div>
+            </div>
+            <div class="tool c">
+                <div class="color red"></div>
+            </div>
+            <div class="tool c">
+                <div class="color blue"></div>
+            </div>
+            <div class="tool" id="random">
+                <input type="color" id="color-picker">
+            </div>
+            <div id="reset" class="tool">
+                <p><i class='bx bx-reset'></i></p>
+            </div>
+        </div>
+
+
+        <!-- Content area -->
+        <div class="content-area">
+
+            <!-- header Area With QUote -->
+            <div class="header-area">
+                <div class="header-content">
+
+                    <div class="quote">
+                        <p class="text">Every Once in a while, <br>
+                            a new Technology, and old<br>
+                            problem, and a big idea<br>
+                            turn into an innovation.<br>
+                            - Dean Kamen -
+                        </p>
+                    </div>
+
+                    <lottie-player src="js/mouseScroll.json" background="" speed="1" style="width: 70px; height: 70px;"
+                        loop autoplay direction="1" mode="normal"></lottie-player>
+
+                </div>
+
+            </div>
+
+
+            <!-- start of Gallery area -->
+            <div class="archive">
+                <h1 class="text">Archive</h1>
+            </div>
+
+            <div class="gallery-area">
+
+                <!-- data is added using Js with the hekp JSON -->
+                <div class="img-view">
+                    <div class="img-info-area">
+                        <div class="title">
+                            <h3 class="text">Hover on a Image</h3>
+                        </div>
+                        <div class="info">
+                            <p class="text"></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="mouse-scroll-animation">
+                    <lottie-player src="js/mouseScroll.json" background="" speed="1" style="width: 40px; height: 40px;"
+                        loop autoplay direction="1" mode="normal"></lottie-player>
+                </div>
+
+                <div class="img-side-view">
+
+                    <div class="img-carousel">
+
+                        <div class="img-section">
+                            <img src="img/collection/1.jpg" alt="Valyrie Robot from Nasa">
+                        </div>
+
+                        <div class="img-section">
+                            <img src="img/collection/2.jpg" alt="Aritificial Intelligence Illustration">
+                        </div>
+
+                        <div class="img-section">
+                            <img src="img/collection/3.jpg" alt="Man Wearing VR Goggles">
+                        </div>
+
+                        <div class="img-section">
+                            <img src="img/collection/4.jpg" alt="Scanning with WIFI">
+                        </div>
+                        <div class="img-section">
+                            <img src="img/img1.jpg" alt="Apple Laptop, SmartWatch">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/navbar.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
