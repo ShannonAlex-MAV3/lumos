@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap'); 
+
+body{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(10, 10, 10);
+    padding-left:290px ;
+    max-width: 1000px;
+    align-items: center;
+    font-family: 'kalam', cursive;
+
+}
+
+.box{
+    background-color:rgb(255, 252, 254) ;
+}
+
+.page{
+    margin-left:30px ;
+    margin-right: 100px;
+    padding-right: 100px;
+    padding-left:100px ;
+    padding-top:px ;
+    padding-bottom:50px ;
+    background-color: rgb(225, 173, 227);
+    display: block;
+
+
+
+}

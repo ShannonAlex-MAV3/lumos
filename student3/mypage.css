@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap'); 
+
+
+body{
+
+    background: #dcdfe1;
+    font-family: arial;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-image: url('imagesf/images\ \(6\).jpg');
+    background-size: 100% auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    font-family: 'kalam', cursive;
+    
+    
+    
+}
+
+
+section{
+    padding-bottom: 100px;
+}
+/* #nav-bar{
+    position: fixed;
+    width:100%;
+}
+nav{
+    height: 60px;
+    background: #030860;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background: #030860;
+    position: relative;
+    list-style: none;
+    display:inline-block;
+}
+nav ul li a{
+    display:block;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background: rgb(98, 198, 252);
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+} */
+.home_a{
+    display:flex;
+}
+.home_a img{
+    margin: 180px 50px 100px 150px;
+    padding: 10px;
+    width: 550px;
+    border: 3px solid rgb(233, 233, 240);
+    border-radius: 10px;
+ 
+}
+.home_a h1{
+    padding: 290px 50px 100px 50px;
+    font-size: 50px;
+    color: #fcfcfe;
+}
+.topic{
+  font-size: 90px;
+}
+/* about */
+.sub_t{
+    color: rgb(219, 219, 224);
+    text-align: center;
+    font-size:35px;
+    padding-top: 80px;
+}
+
+#about div{
+  padding: 40px 60px;
+  margin: 0 200px;
+  border:3px solid rgb(242, 242, 246);
+  background-color: #dcdfe1;
+}
+
+/* images */
+.image {
+    display:grid;
+    grid-template: 270px/ auto auto auto;
+    grid-gap: 20px;
+    background-color: #131618;
+    padding: 40px;
+  }
+  .image > img {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 200px 0;
+  }
+  .image div img{
+    width: 400px;
+    height: 270px;
+  }
+  
+ 
+ 
+

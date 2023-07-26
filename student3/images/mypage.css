@@ -1,0 +1,189 @@
+body{
+    background: #d3eefd;
+    font-family: arial;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+section{
+    padding-bottom: 100px;
+}
+#nav-bar{
+    position: fixed;
+    width:100%;
+}
+nav{
+    height: 60px;
+    background: #030860;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background: #030860;
+    position: relative;
+    list-style: none;
+    display:inline-block;
+}
+nav ul li a{
+    display:block;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background: rgb(98, 198, 252);
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.home_a{
+    display:flex;
+}
+.home_a img{
+    margin: 180px 50px 100px 150px;
+    padding: 10px;
+    width: 550px;
+    border: 3px solid rgb(2, 7, 106);
+    border-radius: 10px;
+ 
+}
+.home_a h1{
+    padding: 290px 50px 100px 50px;
+    font-size: 50px;
+    color: #07013a;
+}
+.topic{
+  font-size: 90px;
+}
+/* about */
+.sub_t{
+    color: blue;
+    text-align: center;
+    font-size:35px;
+    padding-top: 80px;
+}
+
+#about div{
+  padding: 40px 60px;
+  margin: 0 200px;
+  border:3px solid rgb(2, 2, 100);
+}
+
+/* images */
+.image {
+    display:grid;
+    grid-template: 270px/ auto auto auto;
+    grid-gap: 20px;
+    background-color: #2196F3;
+    padding: 40px;
+  }
+  .image > img {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 200px 0;
+  }
+  .image div img{
+    width: 400px;
+    height: 270px;
+  }
+  #places div img{
+    width: 300px;
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #places div{
+    padding: 60px;
+  }
+  fieldset{
+    text-align: center;
+  }
+  legend{
+    font-size: 25px;
+    font-weight: bold;
+    color: #860234;
+  }
+  p{
+    text-align: justify;
+  }
+
+  /* contact us ========================================================================*/
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  label{
+    color: #ffffff;
+  }
+  .container h2{
+    color: #ffffff;
+  }
+  
+  input[type=submit] {
+    background-color: #02b2f8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1e08de;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 20px;
+    background-color: #0b0367;
+    padding: 40px;
+    margin: 40px 300px 0px 300px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 40px 150px 40px 150px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
